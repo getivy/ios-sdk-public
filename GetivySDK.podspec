@@ -1,5 +1,3 @@
-require 'dotenv/load'
-
 Pod::Spec.new do |s|
 
 s.platform = :ios, '11.4'
@@ -8,7 +6,7 @@ s.module_name = "GetivySDK"
 s.summary = "Getivy SDK for iOS"
 s.requires_arc = true
 
-s.version = ENV['VERSION']
+s.version = '1.0.3'
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
