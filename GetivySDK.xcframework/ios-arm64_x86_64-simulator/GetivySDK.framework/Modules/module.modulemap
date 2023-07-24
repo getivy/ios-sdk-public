@@ -1,0 +1,4 @@
+framework module GetivySDK {
+  header "GetivySDK-Swift.h"
+  requires objc
+}
