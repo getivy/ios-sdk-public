@@ -13,8 +13,8 @@
 
 ## Requirements (for latest release)
 
-* Xcode 14+
-* Swift 5.7+
+* Xcode 13.4+
+* Swift 5.6+
 
 ## Installation
 

@@ -1,4 +1,11 @@
 framework module GetivySDK {
-  header "GetivySDK-Swift.h"
-  requires objc
+  umbrella header "GetivySDK.h"
+
+  export *
+  module * { export * }
+}
+
+module GetivySDK.Swift {
+    header "GetivySDK-Swift.h"
+    requires objc
 }

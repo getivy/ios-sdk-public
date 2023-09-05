@@ -1,0 +1,97 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target arm64-apple-ios11.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GetivySDK
+import Foundation
+@_exported import GetivySDK
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+extension UIKit.UIViewController : UIKit.UIPopoverPresentationControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func adaptivePresentationStyle(for controller: UIKit.UIPresentationController, traitCollection: UIKit.UITraitCollection) -> UIKit.UIModalPresentationStyle
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class GetivySDK : ObjectiveC.NSObject {
+  @objc public static let shared: GetivySDK.GetivySDK
+  @objc final public func initializeHandler(configuration: GetivySDK.GetivyConfiguration, handlerResult: @escaping GetivySDK.HandlerCompletion)
+  @objc final public func initializeHandler(configuration: GetivySDK.GetivyConfiguration, type: GetivySDK.SDKFlowType, handlerResult: @escaping GetivySDK.HandlerCompletion)
+  @objc deinit
+}
+@objc public protocol Details {
+  @objc var referenceId: Swift.String? { get }
+  @objc var dataSessionId: Swift.String? { get }
+  @objc var checkoutSessionId: Swift.String? { get }
+}
+extension UIKit.UIFont {
+  public static func ivy_registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle = Bundle(for: GetivySDK.self))
+}
+public enum GetivySDKError : Swift.Error {
+  case invalidListBanksListResponse
+  case invalidSearchBanksListResponse
+  case serverResponseWithNoData
+  case invalidURL
+  case invalidGetSessionDetailsResponse
+  case invalidGetCheckoutDetailsResponse
+  case couldNotConstructFullUrlForEnvironment
+  case failedToEncodeRequest
+  case couldNotLoadViewFromStoryboard
+  case flowNotSuccessful
+  case featureWantedExternalBrowser
+  public static func == (a: GetivySDK.GetivySDKError, b: GetivySDK.GetivySDKError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public typealias HandlerCompletion = (GetivySDK.UIHandler?, GetivySDK.SDKError?) -> Swift.Void
+@objc public enum SDKFlowType : Swift.Int {
+  case data = 1, checkout
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public typealias DismissalClosure = (UIKit.UIViewController) -> Swift.Void
+public typealias ViewControllerClosure = (UIKit.UIViewController) -> Swift.Void
+@objc public protocol UIHandler {
+  @objc func openUI(viewController: UIKit.UIViewController)
+  @objc func openUI(presentationCosure: (UIKit.UIViewController) -> Swift.Void, dismissalClosure: @escaping GetivySDK.DismissalClosure)
+}
+public typealias SuccessCallback = (_ result: GetivySDK.Details) -> Swift.Void
+public typealias ErrorCallback = (_ error: GetivySDK.SDKError?) -> Swift.Void
+@objc @objcMembers public class GetivyConfiguration : ObjectiveC.NSObject {
+  @objc final public let environment: GetivySDK.Environment
+  @objc public var dataSessionId: Swift.String
+  @objc public var checkoutId: Swift.String
+  @objc public var onSuccess: GetivySDK.SuccessCallback
+  @objc public var onError: GetivySDK.ErrorCallback
+  @objc public init(dataSessionId: Swift.String, environment: GetivySDK.Environment = .production, onSuccess: @escaping GetivySDK.SuccessCallback, onError: @escaping GetivySDK.ErrorCallback)
+  @objc public init(checkoutId: Swift.String, environment: GetivySDK.Environment = .production, onSuccess: @escaping GetivySDK.SuccessCallback, onError: @escaping GetivySDK.ErrorCallback)
+  @objc deinit
+}
+@objc public protocol SDKError {
+  @objc var code: Swift.String { get }
+  @objc var message: Swift.String { get }
+}
+@objc public enum Environment : Swift.Int {
+  case production
+  case sandbox
+  case development
+  public var url: Swift.String {
+    get
+  }
+  public func paymentsUrl(forType type: GetivySDK.SDKFlowType) -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension GetivySDK.GetivySDKError : Swift.Equatable {}
+extension GetivySDK.GetivySDKError : Swift.Hashable {}
+extension GetivySDK.SDKFlowType : Swift.Equatable {}
+extension GetivySDK.SDKFlowType : Swift.Hashable {}
+extension GetivySDK.SDKFlowType : Swift.RawRepresentable {}
+extension GetivySDK.Environment : Swift.Equatable {}
+extension GetivySDK.Environment : Swift.Hashable {}
+extension GetivySDK.Environment : Swift.RawRepresentable {}
