@@ -6,7 +6,7 @@ s.module_name = "GetivySDK"
 s.summary = "Getivy SDK for iOS"
 s.requires_arc = true
 
-s.version = '1.0.4'
+s.version = '1.0.5'
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
