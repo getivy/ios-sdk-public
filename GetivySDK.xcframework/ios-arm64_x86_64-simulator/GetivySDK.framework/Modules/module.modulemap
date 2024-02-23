@@ -6,6 +6,6 @@ framework module GetivySDK {
 }
 
 module GetivySDK.Swift {
-    header "GetivySDK-Swift.h"
-    requires objc
+  header "GetivySDK-Swift.h"
+  requires objc
 }

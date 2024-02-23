@@ -148,11 +148,14 @@ For testing before release please specify extra environment argument in the conf
     // Create an SDK configuration
     let config = GetivyConfiguration(
         dataSessionId: <data session id string>,
-        environment: .sandbox,
+        environment: "production",
         onSuccess: { result in }, 
         onError: { error in }
     )
 ```
+
+Possible environment values: `production` and `sandbox`
+
 ## OnSuccess
 
 When creating SDK configuration, there is a callback onSuccess which is called in the event that user successfuly completed the flow. In this case the details of the even are returned in form of an object, containing the original data session id passed to the SDK to initiate the flow as well as reference id of the completed flow. 

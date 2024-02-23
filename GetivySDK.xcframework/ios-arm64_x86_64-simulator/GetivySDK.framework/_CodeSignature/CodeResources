@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		u/+DNl+0oMritqO219Nt7fa3xxU=
+		h8RZgRXmA9iCSJTh4DMOBUuqOUg=
 		</data>
 		<key>BankView.storyboardc/BankViewController.nib</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>BankView.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		iddogBV+vFIv0v7oiqIOrzyxyVs=
+		r8IPQgynCCxn/wGGxT0tqNHIWJg=
 		</data>
 		<key>GraphikRegular.otf</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/GetivySDK-Swift.h</key>
 		<data>
-		c2Avm5vFvExsv1QT35u+3j2te2E=
+		Ph2ifVt4sxrJZxTXIWtZ6plunUc=
 		</data>
 		<key>Headers/GetivySDK.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wtpQ3J/4PawzbeOkHJzz58Glzes=
+		D/bIguiYpzDVysOB7CFSjDN6+mU=
 		</data>
 		<key>Inter-Regular.otf</key>
 		<data>
@@ -54,43 +54,59 @@
 		</data>
 		<key>LanguagesView.storyboardc/vxj-n9-zut-view-uaW-gw-oSN.nib</key>
 		<data>
-		0SplJqZ4k2EwYcTp5ekAWba8Vj8=
+		3sDeCofytLMWNIyyiAhhfAIFrhE=
 		</data>
 		<key>Modules/GetivySDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		8VR1d8OplRVT/+5S/OJvos30u/4=
+		Udb/WlR2Fq77ZTIBDvs85cXm6bM=
 		</data>
 		<key>Modules/GetivySDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		S25EvhHYVs+mucZdaB7fIHdWREA=
+		i5ww+DIRNFMBm0X0RmKJTw7Zlq4=
+		</data>
+		<key>Modules/GetivySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		T5AJdCA9JAN8htSXhCRlA63/L3A=
+		</data>
+		<key>Modules/GetivySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		sUssaE3u9Pd9RmxpkwtrCpugm74=
 		</data>
 		<key>Modules/GetivySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kKL1eHd9/+BrIBUPflagNN6Z+tI=
+		qlso3J0OxiRMS6l13ph/Pty7K5Q=
 		</data>
 		<key>Modules/GetivySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tmoyLFdZ8iMSCz7dsjRlEW5yx18=
+		sUssaE3u9Pd9RmxpkwtrCpugm74=
 		</data>
 		<key>Modules/GetivySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wSnMNixSk/q1MjI2etoLcuIDFV8=
+		aZqT2sH0ycTUOVYoUb9p1f+nviM=
+		</data>
+		<key>Modules/GetivySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		T5AJdCA9JAN8htSXhCRlA63/L3A=
+		</data>
+		<key>Modules/GetivySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		0EkvtWaF9taG/jPt0A66C3srf9Y=
 		</data>
 		<key>Modules/GetivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FyvRwpU58eUNS7DvR6roWivwq/I=
+		0UcdkPr+KPwfBqlFbN1eWTduA7k=
 		</data>
 		<key>Modules/GetivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xwh7TR6g5RAVlCPVYtZC+NK63B8=
+		0EkvtWaF9taG/jPt0A66C3srf9Y=
 		</data>
 		<key>Modules/GetivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0cCezA/r+cDO2prMXad0gsflB1k=
+		puQd2nKRSkdHZ0RPZlwdD4xwu8U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		KEg8RPCcjMupEsA6ni6pqD5aNZE=
+		ZN0t50OfjZl90TJSz6WzOkdtps8=
 		</data>
 		<key>WebView.storyboardc/Info.plist</key>
 		<data>
@@ -102,7 +118,7 @@
 		</data>
 		<key>WebView.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		X4/Dz3z6L8BghWkrhdHmOV73TAU=
+		KBfUjgtaqRr7KnTS0vxHm5Or7Gg=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -138,7 +154,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ioPblrSmsZuFWwUWc6VEMhR4GDcI8StHIPbtDkf9hso=
+			DTmqEN5brFtGTvSbD93B7jXgsuaPsDLgmzNw4MGmNLo=
 			</data>
 		</dict>
 		<key>BankView.storyboardc/BankViewController.nib</key>
@@ -159,7 +175,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fBFv5PkzeOEZHHSjGhkF0OtHLNfpTxlCAWUEtE4FBtM=
+			SrB7Yru5Flonn7UgltqQ74zOiaDG2a0VpAOm5/KSP1Q=
 			</data>
 		</dict>
 		<key>GraphikRegular.otf</key>
@@ -180,7 +196,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FqG8NnkTDgbdxnWdV3xjNwUT4raHPo/r+G1gNyp5wqw=
+			LRZpRZQR7y5w+MT2KvTEKsMbV7NTmIrVhxPR5jBWIWM=
 			</data>
 		</dict>
 		<key>Headers/GetivySDK.h</key>
@@ -215,70 +231,98 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QdnooLxPVO56LMAIFeo257VJWzW9R4CZOHkf5Th2Gvc=
+			MMfeDGkMzRXdBy/ew4agn/6MRLJcV/2HOyXx/8uggxs=
 			</data>
 		</dict>
 		<key>Modules/GetivySDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kJyj3CzFnp24JDy+eydror1Xpq82H+9T17wJGyekIfM=
+			XtiYziHD8LJhprfbUvH/o3JTjnAdixRThXwiIrzb8Cw=
 			</data>
 		</dict>
 		<key>Modules/GetivySDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kbQJ5i+L91QwTtnHQGIK/+FdFZA6SWXAcjklTo+y32w=
+			l2ieHfoyVXgEpCwOKSBHxFfy6WkBGkZ7p3fjR0arAyU=
+			</data>
+		</dict>
+		<key>Modules/GetivySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IyF90vRd86OkRb4E6znxYLd+ZeKyVboU2V4HlKfm6K0=
+			</data>
+		</dict>
+		<key>Modules/GetivySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RUVRXnl1UY6kWVeEl0L7kWoElwYcgYAwpwwoIy9KVJs=
 			</data>
 		</dict>
 		<key>Modules/GetivySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iQWpWm9jQKi1jnj9iWwWt7j2UHgIXjbNyTyj8ifLyFE=
+			QCXs8Eit8u+e+chYSnQplpz+2BVkvypMhzksPhucV1w=
 			</data>
 		</dict>
 		<key>Modules/GetivySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NW/sm+D72nHAx47R78z6VrunrJyR9eyY/p1ApUWsBpI=
+			RUVRXnl1UY6kWVeEl0L7kWoElwYcgYAwpwwoIy9KVJs=
 			</data>
 		</dict>
 		<key>Modules/GetivySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lZmGJmVq0wvhPIN6c4JdG9Kd74T8xhmRN1LxYrQnjDc=
+			IqEUddXYd6QqZm6uE5cNDc46LZBoDaIFJBVpshBZn7k=
+			</data>
+		</dict>
+		<key>Modules/GetivySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IyF90vRd86OkRb4E6znxYLd+ZeKyVboU2V4HlKfm6K0=
+			</data>
+		</dict>
+		<key>Modules/GetivySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			87tD5R4h3cdDFWJF9FBfXLf2Z+Obf+gV/2ymqBmQIAE=
 			</data>
 		</dict>
 		<key>Modules/GetivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p4npiTS42EbNO5B+QE/bN7QW9s65aqH+h1N7df9rOKQ=
+			ll5rhrobrqHfMnwT97eIwDsqZSf3+HFkz9mAzlzm/os=
 			</data>
 		</dict>
 		<key>Modules/GetivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eynQ9jEp+p99ISDzZSd3pntu4U7hm/EIa37r9LRioUM=
+			87tD5R4h3cdDFWJF9FBfXLf2Z+Obf+gV/2ymqBmQIAE=
 			</data>
 		</dict>
 		<key>Modules/GetivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T8FEyz2kGMwIQntDKFF3bW2iaVMgtLCj2ogINLZpiOs=
+			/mLF/Doc7yXGxr/cTbMSNm/T1OTQMHWCHuYjWV2vmP4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+/ptXyx2VvLddHGm6pfQQ7eR3FPjpzrucmm44qk8Ong=
+			sXWpSRCJ4dUCpv2DLXCAiwayLZ+TgCRuu1Zz+0jeuWM=
 			</data>
 		</dict>
 		<key>WebView.storyboardc/Info.plist</key>
@@ -299,7 +343,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lKCu8lGTy3GXepZ9cZ8yYSyIpwcSmk1j1hiClqlHZ6M=
+			/qKOlMv7Xof20jeR9gfzcbweTzdhOOkYB2E7YYbP/Jo=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>

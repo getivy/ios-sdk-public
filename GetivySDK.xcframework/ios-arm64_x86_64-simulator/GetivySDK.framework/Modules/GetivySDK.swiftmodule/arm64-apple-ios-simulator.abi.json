@@ -1,0 +1,3236 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetivySDK",
+        "printedName": "GetivySDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetivySDK",
+                "printedName": "GetivySDK.GetivySDK",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivySDK"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GetivySDK@objc(cs)GetivySDK(cpy)shared",
+            "mangledName": "$s9GetivySDKAAC6sharedABvpZ",
+            "moduleName": "GetivySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetivySDK",
+                    "printedName": "GetivySDK.GetivySDK",
+                    "usr": "c:@M@GetivySDK@objc(cs)GetivySDK"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivySDK(cm)shared",
+                "mangledName": "$s9GetivySDKAAC6sharedABvgZ",
+                "moduleName": "GetivySDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initializeHandler",
+            "printedName": "initializeHandler(configuration:handlerResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GetivyConfiguration",
+                "printedName": "GetivySDK.GetivyConfiguration",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.UIHandler?, GetivySDK.SDKError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(GetivySDK.UIHandler?, GetivySDK.SDKError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GetivySDK.UIHandler?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIHandler",
+                            "printedName": "GetivySDK.UIHandler",
+                            "usr": "c:@M@GetivySDK@objc(pl)UIHandler"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GetivySDK.SDKError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SDKError",
+                            "printedName": "GetivySDK.SDKError",
+                            "usr": "c:@M@GetivySDK@objc(pl)SDKError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GetivySDK@objc(cs)GetivySDK(im)initializeHandlerWithConfiguration:handlerResult:",
+            "mangledName": "$s9GetivySDKAAC17initializeHandler13configuration13handlerResultyAA0A13ConfigurationC_yAA9UIHandler_pSg_AA8SDKError_pSgtctF",
+            "moduleName": "GetivySDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeHandler",
+            "printedName": "initializeHandler(configuration:type:handlerResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GetivyConfiguration",
+                "printedName": "GetivySDK.GetivyConfiguration",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SDKFlowType",
+                "printedName": "GetivySDK.SDKFlowType",
+                "usr": "c:@M@GetivySDK@E@SDKFlowType"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.UIHandler?, GetivySDK.SDKError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(GetivySDK.UIHandler?, GetivySDK.SDKError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GetivySDK.UIHandler?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIHandler",
+                            "printedName": "GetivySDK.UIHandler",
+                            "usr": "c:@M@GetivySDK@objc(pl)UIHandler"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GetivySDK.SDKError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SDKError",
+                            "printedName": "GetivySDK.SDKError",
+                            "usr": "c:@M@GetivySDK@objc(pl)SDKError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GetivySDK@objc(cs)GetivySDK(im)initializeHandlerWithConfiguration:type:handlerResult:",
+            "mangledName": "$s9GetivySDKAAC17initializeHandler13configuration4type13handlerResultyAA0A13ConfigurationC_AA11SDKFlowTypeOyAA9UIHandler_pSg_AA8SDKError_pSgtctF",
+            "moduleName": "GetivySDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GetivySDK@objc(cs)GetivySDK",
+        "mangledName": "$s9GetivySDKAAC",
+        "moduleName": "GetivySDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Details",
+        "printedName": "Details",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "referenceId",
+            "printedName": "referenceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GetivySDK@objc(pl)Details(py)referenceId",
+            "mangledName": "$s9GetivySDK7DetailsP11referenceIdSSSgvp",
+            "moduleName": "GetivySDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(pl)Details(im)referenceId",
+                "mangledName": "$s9GetivySDK7DetailsP11referenceIdSSSgvg",
+                "moduleName": "GetivySDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GetivySDK.Details>",
+                "sugared_genericSig": "<Self where Self : GetivySDK.Details>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataSessionId",
+            "printedName": "dataSessionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GetivySDK@objc(pl)Details(py)dataSessionId",
+            "mangledName": "$s9GetivySDK7DetailsP13dataSessionIdSSSgvp",
+            "moduleName": "GetivySDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(pl)Details(im)dataSessionId",
+                "mangledName": "$s9GetivySDK7DetailsP13dataSessionIdSSSgvg",
+                "moduleName": "GetivySDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GetivySDK.Details>",
+                "sugared_genericSig": "<Self where Self : GetivySDK.Details>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "checkoutSessionId",
+            "printedName": "checkoutSessionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GetivySDK@objc(pl)Details(py)checkoutSessionId",
+            "mangledName": "$s9GetivySDK7DetailsP17checkoutSessionIdSSSgvp",
+            "moduleName": "GetivySDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(pl)Details(im)checkoutSessionId",
+                "mangledName": "$s9GetivySDK7DetailsP17checkoutSessionIdSSSgvg",
+                "moduleName": "GetivySDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GetivySDK.Details>",
+                "sugared_genericSig": "<Self where Self : GetivySDK.Details>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@GetivySDK@objc(pl)Details",
+        "mangledName": "$s9GetivySDK7DetailsP",
+        "moduleName": "GetivySDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetivySDKError",
+        "printedName": "GetivySDKError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidListBanksListResponse",
+            "printedName": "invalidListBanksListResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetivySDKError",
+                    "printedName": "GetivySDK.GetivySDKError",
+                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetivySDKError",
+                        "printedName": "GetivySDK.GetivySDKError",
+                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GetivySDK0A8SDKErrorO016invalidListBanksE8ResponseyA2CmF",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO016invalidListBanksE8ResponseyA2CmF",
+            "moduleName": "GetivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidSearchBanksListResponse",
+            "printedName": "invalidSearchBanksListResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetivySDKError",
+                    "printedName": "GetivySDK.GetivySDKError",
+                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetivySDKError",
+                        "printedName": "GetivySDK.GetivySDKError",
+                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GetivySDK0A8SDKErrorO30invalidSearchBanksListResponseyA2CmF",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO30invalidSearchBanksListResponseyA2CmF",
+            "moduleName": "GetivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "serverResponseWithNoData",
+            "printedName": "serverResponseWithNoData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetivySDKError",
+                    "printedName": "GetivySDK.GetivySDKError",
+                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetivySDKError",
+                        "printedName": "GetivySDK.GetivySDKError",
+                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GetivySDK0A8SDKErrorO24serverResponseWithNoDatayA2CmF",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO24serverResponseWithNoDatayA2CmF",
+            "moduleName": "GetivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidURL",
+            "printedName": "invalidURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetivySDKError",
+                    "printedName": "GetivySDK.GetivySDKError",
+                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetivySDKError",
+                        "printedName": "GetivySDK.GetivySDKError",
+                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GetivySDK0A8SDKErrorO10invalidURLyA2CmF",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO10invalidURLyA2CmF",
+            "moduleName": "GetivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidGetSessionDetailsResponse",
+            "printedName": "invalidGetSessionDetailsResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetivySDKError",
+                    "printedName": "GetivySDK.GetivySDKError",
+                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetivySDKError",
+                        "printedName": "GetivySDK.GetivySDKError",
+                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GetivySDK0A8SDKErrorO32invalidGetSessionDetailsResponseyA2CmF",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO32invalidGetSessionDetailsResponseyA2CmF",
+            "moduleName": "GetivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidGetCheckoutDetailsResponse",
+            "printedName": "invalidGetCheckoutDetailsResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetivySDKError",
+                    "printedName": "GetivySDK.GetivySDKError",
+                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetivySDKError",
+                        "printedName": "GetivySDK.GetivySDKError",
+                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GetivySDK0A8SDKErrorO33invalidGetCheckoutDetailsResponseyA2CmF",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO33invalidGetCheckoutDetailsResponseyA2CmF",
+            "moduleName": "GetivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "couldNotConstructFullUrlForEnvironment",
+            "printedName": "couldNotConstructFullUrlForEnvironment",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetivySDKError",
+                    "printedName": "GetivySDK.GetivySDKError",
+                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetivySDKError",
+                        "printedName": "GetivySDK.GetivySDKError",
+                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GetivySDK0A8SDKErrorO38couldNotConstructFullUrlForEnvironmentyA2CmF",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO38couldNotConstructFullUrlForEnvironmentyA2CmF",
+            "moduleName": "GetivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "failedToEncodeRequest",
+            "printedName": "failedToEncodeRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetivySDKError",
+                    "printedName": "GetivySDK.GetivySDKError",
+                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetivySDKError",
+                        "printedName": "GetivySDK.GetivySDKError",
+                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GetivySDK0A8SDKErrorO21failedToEncodeRequestyA2CmF",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO21failedToEncodeRequestyA2CmF",
+            "moduleName": "GetivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "couldNotLoadViewFromStoryboard",
+            "printedName": "couldNotLoadViewFromStoryboard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetivySDKError",
+                    "printedName": "GetivySDK.GetivySDKError",
+                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetivySDKError",
+                        "printedName": "GetivySDK.GetivySDKError",
+                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GetivySDK0A8SDKErrorO30couldNotLoadViewFromStoryboardyA2CmF",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO30couldNotLoadViewFromStoryboardyA2CmF",
+            "moduleName": "GetivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "flowNotSuccessful",
+            "printedName": "flowNotSuccessful",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetivySDKError",
+                    "printedName": "GetivySDK.GetivySDKError",
+                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetivySDKError",
+                        "printedName": "GetivySDK.GetivySDKError",
+                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GetivySDK0A8SDKErrorO17flowNotSuccessfulyA2CmF",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO17flowNotSuccessfulyA2CmF",
+            "moduleName": "GetivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "featureWantedExternalBrowser",
+            "printedName": "featureWantedExternalBrowser",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetivySDKError",
+                    "printedName": "GetivySDK.GetivySDKError",
+                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetivySDKError",
+                        "printedName": "GetivySDK.GetivySDKError",
+                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GetivySDK0A8SDKErrorO28featureWantedExternalBrowseryA2CmF",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO28featureWantedExternalBrowseryA2CmF",
+            "moduleName": "GetivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "newTabUrlCanNotBeOpened",
+            "printedName": "newTabUrlCanNotBeOpened",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetivySDKError",
+                    "printedName": "GetivySDK.GetivySDKError",
+                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetivySDKError",
+                        "printedName": "GetivySDK.GetivySDKError",
+                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GetivySDK0A8SDKErrorO23newTabUrlCanNotBeOpenedyA2CmF",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO23newTabUrlCanNotBeOpenedyA2CmF",
+            "moduleName": "GetivySDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GetivySDKError",
+                "printedName": "GetivySDK.GetivySDKError",
+                "usr": "s:9GetivySDK0A8SDKErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GetivySDKError",
+                "printedName": "GetivySDK.GetivySDKError",
+                "usr": "s:9GetivySDK0A8SDKErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GetivySDK0A8SDKErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "GetivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GetivySDK0A8SDKErrorO9hashValueSivp",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO9hashValueSivp",
+            "moduleName": "GetivySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GetivySDK0A8SDKErrorO9hashValueSivg",
+                "mangledName": "$s9GetivySDK0A8SDKErrorO9hashValueSivg",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GetivySDK0A8SDKErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9GetivySDK0A8SDKErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "GetivySDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9GetivySDK0A8SDKErrorO",
+        "mangledName": "$s9GetivySDK0A8SDKErrorO",
+        "moduleName": "GetivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKFlowType",
+        "printedName": "SDKFlowType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.SDKFlowType.Type) -> GetivySDK.SDKFlowType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKFlowType",
+                    "printedName": "GetivySDK.SDKFlowType",
+                    "usr": "c:@M@GetivySDK@E@SDKFlowType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.SDKFlowType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKFlowType",
+                        "printedName": "GetivySDK.SDKFlowType",
+                        "usr": "c:@M@GetivySDK@E@SDKFlowType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@GetivySDK@E@SDKFlowType@SDKFlowTypeData",
+            "mangledName": "$s9GetivySDK11SDKFlowTypeO4datayA2CmF",
+            "moduleName": "GetivySDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "checkout",
+            "printedName": "checkout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.SDKFlowType.Type) -> GetivySDK.SDKFlowType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKFlowType",
+                    "printedName": "GetivySDK.SDKFlowType",
+                    "usr": "c:@M@GetivySDK@E@SDKFlowType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GetivySDK.SDKFlowType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKFlowType",
+                        "printedName": "GetivySDK.SDKFlowType",
+                        "usr": "c:@M@GetivySDK@E@SDKFlowType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@GetivySDK@E@SDKFlowType@SDKFlowTypeCheckout",
+            "mangledName": "$s9GetivySDK11SDKFlowTypeO8checkoutyA2CmF",
+            "moduleName": "GetivySDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GetivySDK.SDKFlowType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKFlowType",
+                    "printedName": "GetivySDK.SDKFlowType",
+                    "usr": "c:@M@GetivySDK@E@SDKFlowType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9GetivySDK11SDKFlowTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s9GetivySDK11SDKFlowTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "GetivySDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GetivySDK11SDKFlowTypeO8rawValueSivp",
+            "mangledName": "$s9GetivySDK11SDKFlowTypeO8rawValueSivp",
+            "moduleName": "GetivySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GetivySDK11SDKFlowTypeO8rawValueSivg",
+                "mangledName": "$s9GetivySDK11SDKFlowTypeO8rawValueSivg",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@GetivySDK@E@SDKFlowType",
+        "mangledName": "$s9GetivySDK11SDKFlowTypeO",
+        "moduleName": "GetivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIHandler",
+        "printedName": "UIHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "openUI",
+            "printedName": "openUI(viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GetivySDK@objc(pl)UIHandler(im)openUIWithViewController:",
+            "mangledName": "$s9GetivySDK9UIHandlerP6openUI14viewControllerySo06UIViewG0C_tF",
+            "moduleName": "GetivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : GetivySDK.UIHandler>",
+            "sugared_genericSig": "<Self where Self : GetivySDK.UIHandler>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openUI",
+            "printedName": "openUI(presentationCosure:dismissalClosure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIViewController) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIViewController) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GetivySDK@objc(pl)UIHandler(im)openUIWithPresentationCosure:dismissalClosure:",
+            "mangledName": "$s9GetivySDK9UIHandlerP6openUI18presentationCosure16dismissalClosureyySo16UIViewControllerCXE_yAHctF",
+            "moduleName": "GetivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : GetivySDK.UIHandler>",
+            "sugared_genericSig": "<Self where Self : GetivySDK.UIHandler>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@GetivySDK@objc(pl)UIHandler",
+        "mangledName": "$s9GetivySDK9UIHandlerP",
+        "moduleName": "GetivySDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetivyConfiguration",
+        "printedName": "GetivyConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(py)environment",
+            "mangledName": "$s9GetivySDK0A13ConfigurationC11environmentSSvp",
+            "moduleName": "GetivySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(im)environment",
+                "mangledName": "$s9GetivySDK0A13ConfigurationC11environmentSSvg",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataSessionId",
+            "printedName": "dataSessionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(py)dataSessionId",
+            "mangledName": "$s9GetivySDK0A13ConfigurationC13dataSessionIdSSvp",
+            "moduleName": "GetivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(im)dataSessionId",
+                "mangledName": "$s9GetivySDK0A13ConfigurationC13dataSessionIdSSvg",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(im)setDataSessionId:",
+                "mangledName": "$s9GetivySDK0A13ConfigurationC13dataSessionIdSSvs",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GetivySDK0A13ConfigurationC13dataSessionIdSSvM",
+                "mangledName": "$s9GetivySDK0A13ConfigurationC13dataSessionIdSSvM",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "checkoutId",
+            "printedName": "checkoutId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(py)checkoutId",
+            "mangledName": "$s9GetivySDK0A13ConfigurationC10checkoutIdSSvp",
+            "moduleName": "GetivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(im)checkoutId",
+                "mangledName": "$s9GetivySDK0A13ConfigurationC10checkoutIdSSvg",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(im)setCheckoutId:",
+                "mangledName": "$s9GetivySDK0A13ConfigurationC10checkoutIdSSvs",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GetivySDK0A13ConfigurationC10checkoutIdSSvM",
+                "mangledName": "$s9GetivySDK0A13ConfigurationC10checkoutIdSSvM",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onSuccess",
+            "printedName": "onSuccess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.Details) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Details",
+                    "printedName": "GetivySDK.Details",
+                    "usr": "c:@M@GetivySDK@objc(pl)Details"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(py)onSuccess",
+            "mangledName": "$s9GetivySDK0A13ConfigurationC9onSuccessyyAA7Details_pcvp",
+            "moduleName": "GetivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GetivySDK.Details) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Details",
+                        "printedName": "GetivySDK.Details",
+                        "usr": "c:@M@GetivySDK@objc(pl)Details"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(im)onSuccess",
+                "mangledName": "$s9GetivySDK0A13ConfigurationC9onSuccessyyAA7Details_pcvg",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GetivySDK.Details) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Details",
+                        "printedName": "GetivySDK.Details",
+                        "usr": "c:@M@GetivySDK@objc(pl)Details"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(im)setOnSuccess:",
+                "mangledName": "$s9GetivySDK0A13ConfigurationC9onSuccessyyAA7Details_pcvs",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GetivySDK0A13ConfigurationC9onSuccessyyAA7Details_pcvM",
+                "mangledName": "$s9GetivySDK0A13ConfigurationC9onSuccessyyAA7Details_pcvM",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onError",
+            "printedName": "onError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.SDKError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GetivySDK.SDKError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "GetivySDK.SDKError",
+                        "usr": "c:@M@GetivySDK@objc(pl)SDKError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(py)onError",
+            "mangledName": "$s9GetivySDK0A13ConfigurationC7onErroryyAA8SDKError_pSgcvp",
+            "moduleName": "GetivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GetivySDK.SDKError?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GetivySDK.SDKError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SDKError",
+                            "printedName": "GetivySDK.SDKError",
+                            "usr": "c:@M@GetivySDK@objc(pl)SDKError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(im)onError",
+                "mangledName": "$s9GetivySDK0A13ConfigurationC7onErroryyAA8SDKError_pSgcvg",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GetivySDK.SDKError?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GetivySDK.SDKError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SDKError",
+                            "printedName": "GetivySDK.SDKError",
+                            "usr": "c:@M@GetivySDK@objc(pl)SDKError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(im)setOnError:",
+                "mangledName": "$s9GetivySDK0A13ConfigurationC7onErroryyAA8SDKError_pSgcvs",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GetivySDK0A13ConfigurationC7onErroryyAA8SDKError_pSgcvM",
+                "mangledName": "$s9GetivySDK0A13ConfigurationC7onErroryyAA8SDKError_pSgcvM",
+                "moduleName": "GetivySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dataSessionId:environment:onSuccess:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetivyConfiguration",
+                "printedName": "GetivySDK.GetivyConfiguration",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.Details) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Details",
+                    "printedName": "GetivySDK.Details",
+                    "usr": "c:@M@GetivySDK@objc(pl)Details"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.SDKError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GetivySDK.SDKError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "GetivySDK.SDKError",
+                        "usr": "c:@M@GetivySDK@objc(pl)SDKError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(im)initWithDataSessionId:environment:onSuccess:onError:",
+            "mangledName": "$s9GetivySDK0A13ConfigurationC13dataSessionId11environment9onSuccess0H5ErrorACSS_SSyAA7Details_pcyAA8SDKError_pSgctcfc",
+            "moduleName": "GetivySDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(checkoutId:environment:onSuccess:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetivyConfiguration",
+                "printedName": "GetivySDK.GetivyConfiguration",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.Details) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Details",
+                    "printedName": "GetivySDK.Details",
+                    "usr": "c:@M@GetivySDK@objc(pl)Details"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GetivySDK.SDKError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GetivySDK.SDKError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "GetivySDK.SDKError",
+                        "usr": "c:@M@GetivySDK@objc(pl)SDKError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(im)initWithCheckoutId:environment:onSuccess:onError:",
+            "mangledName": "$s9GetivySDK0A13ConfigurationC10checkoutId11environment9onSuccess0G5ErrorACSS_SSyAA7Details_pcyAA8SDKError_pSgctcfc",
+            "moduleName": "GetivySDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetivyConfiguration",
+                "printedName": "GetivySDK.GetivyConfiguration",
+                "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration(im)init",
+            "mangledName": "$s9GetivySDK0A13ConfigurationCACycfc",
+            "moduleName": "GetivySDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GetivySDK@objc(cs)GetivyConfiguration",
+        "mangledName": "$s9GetivySDK0A13ConfigurationC",
+        "moduleName": "GetivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKError",
+        "printedName": "SDKError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GetivySDK@objc(pl)SDKError(py)code",
+            "mangledName": "$s9GetivySDK8SDKErrorP4codeSSvp",
+            "moduleName": "GetivySDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(pl)SDKError(im)code",
+                "mangledName": "$s9GetivySDK8SDKErrorP4codeSSvg",
+                "moduleName": "GetivySDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GetivySDK.SDKError>",
+                "sugared_genericSig": "<Self where Self : GetivySDK.SDKError>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GetivySDK@objc(pl)SDKError(py)message",
+            "mangledName": "$s9GetivySDK8SDKErrorP7messageSSvp",
+            "moduleName": "GetivySDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GetivySDK@objc(pl)SDKError(im)message",
+                "mangledName": "$s9GetivySDK8SDKErrorP7messageSSvg",
+                "moduleName": "GetivySDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GetivySDK.SDKError>",
+                "sugared_genericSig": "<Self where Self : GetivySDK.SDKError>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@GetivySDK@objc(pl)SDKError",
+        "mangledName": "$s9GetivySDK8SDKErrorP",
+        "moduleName": "GetivySDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "adaptivePresentationStyle",
+            "printedName": "adaptivePresentationStyle(for:traitCollection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIModalPresentationStyle",
+                "printedName": "UIKit.UIModalPresentationStyle",
+                "usr": "c:@E@UIModalPresentationStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPresentationController",
+                "printedName": "UIKit.UIPresentationController",
+                "usr": "c:objc(cs)UIPresentationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITraitCollection",
+                "printedName": "UIKit.UITraitCollection",
+                "usr": "c:objc(cs)UITraitCollection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@GetivySDK@@objc(cs)UIViewController(im)adaptivePresentationStyleForPresentationController:traitCollection:",
+            "mangledName": "$sSo16UIViewControllerC9GetivySDKE25adaptivePresentationStyle3for15traitCollectionSo07UIModalfG0VSo014UIPresentationB0C_So07UITraitJ0CtF",
+            "moduleName": "GetivySDK",
+            "objc_name": "adaptivePresentationStyleForPresentationController:traitCollection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIViewController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIViewController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIFont",
+        "printedName": "UIFont",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "ivy_registerFont",
+            "printedName": "ivy_registerFont(withFilenameString:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIFontC9GetivySDKE16ivy_registerFont18withFilenameString6bundleySS_So8NSBundleCtFZ",
+            "mangledName": "$sSo6UIFontC9GetivySDKE16ivy_registerFont18withFilenameString6bundleySS_So8NSBundleCtFZ",
+            "moduleName": "GetivySDK",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIFont",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIFont",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 80,
+      "length": 9,
+      "value": "\"A40-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 115,
+      "length": 9,
+      "value": "\"A41-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 9,
+      "value": "\"A42-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 9,
+      "value": "\"A43-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 9,
+      "value": "\"A50-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 9,
+      "value": "\"A51-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 9,
+      "value": "\"A52-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 80,
+      "length": 9,
+      "value": "\"A40-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 115,
+      "length": 9,
+      "value": "\"A41-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 9,
+      "value": "\"A42-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 9,
+      "value": "\"A43-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 9,
+      "value": "\"A50-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 9,
+      "value": "\"A51-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 9,
+      "value": "\"A52-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "FloatLiteral",
+      "offset": 92,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Localization\/LocalizationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 110,
+      "length": 24,
+      "value": "\"kGetivySharedLocaleKey\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Services\/Banks\/BanksApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 31,
+      "length": 15,
+      "value": "\"GetivySDK.BanksApiService\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivySDKContract.swift",
+      "kind": "IntegerLiteral",
+      "offset": 137,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivySDKContract.swift",
+      "kind": "IntegerLiteral",
+      "offset": 144,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivySDKContract.swift",
+      "kind": "IntegerLiteral",
+      "offset": 137,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivySDKContract.swift",
+      "kind": "IntegerLiteral",
+      "offset": 144,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 80,
+      "length": 21,
+      "value": "\"GetivySDK.PresentationUIHandler\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Config\/GetivyConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 19,
+      "value": "\"GetivySDK.GetivyConfiguration\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "Array",
+      "offset": 155,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "Array",
+      "offset": 197,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 58,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 77,
+      "length": 4,
+      "value": "\"de\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 95,
+      "length": 4,
+      "value": "\"nl\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 58,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 77,
+      "length": 4,
+      "value": "\"de\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 95,
+      "length": 4,
+      "value": "\"nl\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 284,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 284,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 284,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 87,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 104,
+      "length": 11,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 87,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 104,
+      "length": 11,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Services\/IvyApiService\/IvyApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 31,
+      "length": 13,
+      "value": "\"GetivySDK.IvyApiService\""
+    }
+  ]
+}
