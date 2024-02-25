@@ -1,19 +1,22 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios11.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GetivySDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import DeveloperToolsSupport
 import Foundation
 @_exported import GetivySDK
 import Swift
+import SwiftUI
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 extension UIKit.UIViewController : UIKit.UIPopoverPresentationControllerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func adaptivePresentationStyle(for controller: UIKit.UIPresentationController, traitCollection: UIKit.UITraitCollection) -> UIKit.UIModalPresentationStyle
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class GetivySDK : ObjectiveC.NSObject {
-  @objc public static let shared: GetivySDK.GetivySDK
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class Getivy : ObjectiveC.NSObject {
+  @objc public static let shared: GetivySDK.Getivy
   @objc final public func initializeHandler(configuration: GetivySDK.GetivyConfiguration, handlerResult: @escaping GetivySDK.HandlerCompletion)
   @objc final public func initializeHandler(configuration: GetivySDK.GetivyConfiguration, type: GetivySDK.SDKFlowType, handlerResult: @escaping GetivySDK.HandlerCompletion)
   @objc deinit
@@ -24,9 +27,9 @@ extension UIKit.UIViewController : UIKit.UIPopoverPresentationControllerDelegate
   @objc var checkoutSessionId: Swift.String? { get }
 }
 extension UIKit.UIFont {
-  public static func ivy_registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle = Bundle(for: GetivySDK.self))
+  public static func ivy_registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle = Bundle(for: GetivyConfiguration.self))
 }
-public enum GetivySDKError : Swift.Error {
+public enum GetivyError : Swift.Error {
   case invalidListBanksListResponse
   case invalidSearchBanksListResponse
   case serverResponseWithNoData
@@ -39,13 +42,13 @@ public enum GetivySDKError : Swift.Error {
   case flowNotSuccessful
   case featureWantedExternalBrowser
   case newTabUrlCanNotBeOpened
-  public static func == (a: GetivySDK.GetivySDKError, b: GetivySDK.GetivySDKError) -> Swift.Bool
+  public static func == (a: GetivySDK.GetivyError, b: GetivySDK.GetivyError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
 }
-public typealias HandlerCompletion = (GetivySDK.UIHandler?, GetivySDK.SDKError?) -> Swift.Void
+public typealias HandlerCompletion = ((any GetivySDK.UIHandler)?, (any GetivySDK.SDKError)?) -> Swift.Void
 @objc public enum SDKFlowType : Swift.Int {
   case data = 1, checkout
   public init?(rawValue: Swift.Int)
@@ -60,8 +63,8 @@ public typealias ViewControllerClosure = (UIKit.UIViewController) -> Swift.Void
   @objc func openUI(viewController: UIKit.UIViewController)
   @objc func openUI(presentationCosure: (UIKit.UIViewController) -> Swift.Void, dismissalClosure: @escaping GetivySDK.DismissalClosure)
 }
-public typealias SuccessCallback = (_ result: GetivySDK.Details) -> Swift.Void
-public typealias ErrorCallback = (_ error: GetivySDK.SDKError?) -> Swift.Void
+public typealias SuccessCallback = (_ result: any GetivySDK.Details) -> Swift.Void
+public typealias ErrorCallback = (_ error: (any GetivySDK.SDKError)?) -> Swift.Void
 @objc @objcMembers public class GetivyConfiguration : ObjectiveC.NSObject {
   @objc final public let environment: Swift.String
   @objc public var dataSessionId: Swift.String
@@ -76,8 +79,8 @@ public typealias ErrorCallback = (_ error: GetivySDK.SDKError?) -> Swift.Void
   @objc var code: Swift.String { get }
   @objc var message: Swift.String { get }
 }
-extension GetivySDK.GetivySDKError : Swift.Equatable {}
-extension GetivySDK.GetivySDKError : Swift.Hashable {}
+extension GetivySDK.GetivyError : Swift.Equatable {}
+extension GetivySDK.GetivyError : Swift.Hashable {}
 extension GetivySDK.SDKFlowType : Swift.Equatable {}
 extension GetivySDK.SDKFlowType : Swift.Hashable {}
 extension GetivySDK.SDKFlowType : Swift.RawRepresentable {}

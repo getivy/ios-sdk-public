@@ -62,8 +62,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "GetivySDK",
-        "printedName": "GetivySDK",
+        "name": "Getivy",
+        "printedName": "Getivy",
         "children": [
           {
             "kind": "Var",
@@ -72,14 +72,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GetivySDK",
-                "printedName": "GetivySDK.GetivySDK",
-                "usr": "c:@M@GetivySDK@objc(cs)GetivySDK"
+                "name": "Getivy",
+                "printedName": "GetivySDK.Getivy",
+                "usr": "c:@M@GetivySDK@objc(cs)Getivy"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@GetivySDK@objc(cs)GetivySDK(cpy)shared",
-            "mangledName": "$s9GetivySDKAAC6sharedABvpZ",
+            "usr": "c:@M@GetivySDK@objc(cs)Getivy(cpy)shared",
+            "mangledName": "$s9GetivySDK0A0C6sharedACvpZ",
             "moduleName": "GetivySDK",
             "static": true,
             "declAttributes": [
@@ -99,14 +99,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GetivySDK",
-                    "printedName": "GetivySDK.GetivySDK",
-                    "usr": "c:@M@GetivySDK@objc(cs)GetivySDK"
+                    "name": "Getivy",
+                    "printedName": "GetivySDK.Getivy",
+                    "usr": "c:@M@GetivySDK@objc(cs)Getivy"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@GetivySDK@objc(cs)GetivySDK(cm)shared",
-                "mangledName": "$s9GetivySDKAAC6sharedABvgZ",
+                "usr": "c:@M@GetivySDK@objc(cs)Getivy(cm)shared",
+                "mangledName": "$s9GetivySDK0A0C6sharedACvgZ",
                 "moduleName": "GetivySDK",
                 "static": true,
                 "implicit": true,
@@ -183,8 +183,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@GetivySDK@objc(cs)GetivySDK(im)initializeHandlerWithConfiguration:handlerResult:",
-            "mangledName": "$s9GetivySDKAAC17initializeHandler13configuration13handlerResultyAA0A13ConfigurationC_yAA9UIHandler_pSg_AA8SDKError_pSgtctF",
+            "usr": "c:@M@GetivySDK@objc(cs)Getivy(im)initializeHandlerWithConfiguration:handlerResult:",
+            "mangledName": "$s9GetivySDK0A0C17initializeHandler13configuration13handlerResultyAA0A13ConfigurationC_yAA9UIHandler_pSg_AA8SDKError_pSgtctF",
             "moduleName": "GetivySDK",
             "declAttributes": [
               "Final",
@@ -264,8 +264,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@GetivySDK@objc(cs)GetivySDK(im)initializeHandlerWithConfiguration:type:handlerResult:",
-            "mangledName": "$s9GetivySDKAAC17initializeHandler13configuration4type13handlerResultyAA0A13ConfigurationC_AA11SDKFlowTypeOyAA9UIHandler_pSg_AA8SDKError_pSgtctF",
+            "usr": "c:@M@GetivySDK@objc(cs)Getivy(im)initializeHandlerWithConfiguration:type:handlerResult:",
+            "mangledName": "$s9GetivySDK0A0C17initializeHandler13configuration4type13handlerResultyAA0A13ConfigurationC_AA11SDKFlowTypeOyAA9UIHandler_pSg_AA8SDKError_pSgtctF",
             "moduleName": "GetivySDK",
             "declAttributes": [
               "Final",
@@ -276,8 +276,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@GetivySDK@objc(cs)GetivySDK",
-        "mangledName": "$s9GetivySDKAAC",
+        "usr": "c:@M@GetivySDK@objc(cs)Getivy",
+        "mangledName": "$s9GetivySDK0A0C",
         "moduleName": "GetivySDK",
         "declAttributes": [
           "Final",
@@ -673,8 +673,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "GetivySDKError",
-        "printedName": "GetivySDKError",
+        "name": "GetivyError",
+        "printedName": "GetivyError",
         "children": [
           {
             "kind": "Var",
@@ -684,24 +684,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "printedName": "(GetivySDK.GetivyError.Type) -> GetivySDK.GetivyError",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GetivySDKError",
-                    "printedName": "GetivySDK.GetivySDKError",
-                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                    "name": "GetivyError",
+                    "printedName": "GetivySDK.GetivyError",
+                    "usr": "s:9GetivySDK0A5ErrorO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "printedName": "GetivySDK.GetivyError.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GetivySDKError",
-                        "printedName": "GetivySDK.GetivySDKError",
-                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                        "name": "GetivyError",
+                        "printedName": "GetivySDK.GetivyError",
+                        "usr": "s:9GetivySDK0A5ErrorO"
                       }
                     ]
                   }
@@ -709,8 +709,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9GetivySDK0A8SDKErrorO016invalidListBanksE8ResponseyA2CmF",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO016invalidListBanksE8ResponseyA2CmF",
+            "usr": "s:9GetivySDK0A5ErrorO016invalidListBanksE8ResponseyA2CmF",
+            "mangledName": "$s9GetivySDK0A5ErrorO016invalidListBanksE8ResponseyA2CmF",
             "moduleName": "GetivySDK"
           },
           {
@@ -721,24 +721,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "printedName": "(GetivySDK.GetivyError.Type) -> GetivySDK.GetivyError",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GetivySDKError",
-                    "printedName": "GetivySDK.GetivySDKError",
-                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                    "name": "GetivyError",
+                    "printedName": "GetivySDK.GetivyError",
+                    "usr": "s:9GetivySDK0A5ErrorO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "printedName": "GetivySDK.GetivyError.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GetivySDKError",
-                        "printedName": "GetivySDK.GetivySDKError",
-                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                        "name": "GetivyError",
+                        "printedName": "GetivySDK.GetivyError",
+                        "usr": "s:9GetivySDK0A5ErrorO"
                       }
                     ]
                   }
@@ -746,8 +746,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9GetivySDK0A8SDKErrorO30invalidSearchBanksListResponseyA2CmF",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO30invalidSearchBanksListResponseyA2CmF",
+            "usr": "s:9GetivySDK0A5ErrorO30invalidSearchBanksListResponseyA2CmF",
+            "mangledName": "$s9GetivySDK0A5ErrorO30invalidSearchBanksListResponseyA2CmF",
             "moduleName": "GetivySDK"
           },
           {
@@ -758,24 +758,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "printedName": "(GetivySDK.GetivyError.Type) -> GetivySDK.GetivyError",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GetivySDKError",
-                    "printedName": "GetivySDK.GetivySDKError",
-                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                    "name": "GetivyError",
+                    "printedName": "GetivySDK.GetivyError",
+                    "usr": "s:9GetivySDK0A5ErrorO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "printedName": "GetivySDK.GetivyError.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GetivySDKError",
-                        "printedName": "GetivySDK.GetivySDKError",
-                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                        "name": "GetivyError",
+                        "printedName": "GetivySDK.GetivyError",
+                        "usr": "s:9GetivySDK0A5ErrorO"
                       }
                     ]
                   }
@@ -783,8 +783,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9GetivySDK0A8SDKErrorO24serverResponseWithNoDatayA2CmF",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO24serverResponseWithNoDatayA2CmF",
+            "usr": "s:9GetivySDK0A5ErrorO24serverResponseWithNoDatayA2CmF",
+            "mangledName": "$s9GetivySDK0A5ErrorO24serverResponseWithNoDatayA2CmF",
             "moduleName": "GetivySDK"
           },
           {
@@ -795,24 +795,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "printedName": "(GetivySDK.GetivyError.Type) -> GetivySDK.GetivyError",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GetivySDKError",
-                    "printedName": "GetivySDK.GetivySDKError",
-                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                    "name": "GetivyError",
+                    "printedName": "GetivySDK.GetivyError",
+                    "usr": "s:9GetivySDK0A5ErrorO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "printedName": "GetivySDK.GetivyError.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GetivySDKError",
-                        "printedName": "GetivySDK.GetivySDKError",
-                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                        "name": "GetivyError",
+                        "printedName": "GetivySDK.GetivyError",
+                        "usr": "s:9GetivySDK0A5ErrorO"
                       }
                     ]
                   }
@@ -820,8 +820,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9GetivySDK0A8SDKErrorO10invalidURLyA2CmF",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO10invalidURLyA2CmF",
+            "usr": "s:9GetivySDK0A5ErrorO10invalidURLyA2CmF",
+            "mangledName": "$s9GetivySDK0A5ErrorO10invalidURLyA2CmF",
             "moduleName": "GetivySDK"
           },
           {
@@ -832,24 +832,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "printedName": "(GetivySDK.GetivyError.Type) -> GetivySDK.GetivyError",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GetivySDKError",
-                    "printedName": "GetivySDK.GetivySDKError",
-                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                    "name": "GetivyError",
+                    "printedName": "GetivySDK.GetivyError",
+                    "usr": "s:9GetivySDK0A5ErrorO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "printedName": "GetivySDK.GetivyError.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GetivySDKError",
-                        "printedName": "GetivySDK.GetivySDKError",
-                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                        "name": "GetivyError",
+                        "printedName": "GetivySDK.GetivyError",
+                        "usr": "s:9GetivySDK0A5ErrorO"
                       }
                     ]
                   }
@@ -857,8 +857,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9GetivySDK0A8SDKErrorO32invalidGetSessionDetailsResponseyA2CmF",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO32invalidGetSessionDetailsResponseyA2CmF",
+            "usr": "s:9GetivySDK0A5ErrorO32invalidGetSessionDetailsResponseyA2CmF",
+            "mangledName": "$s9GetivySDK0A5ErrorO32invalidGetSessionDetailsResponseyA2CmF",
             "moduleName": "GetivySDK"
           },
           {
@@ -869,24 +869,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "printedName": "(GetivySDK.GetivyError.Type) -> GetivySDK.GetivyError",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GetivySDKError",
-                    "printedName": "GetivySDK.GetivySDKError",
-                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                    "name": "GetivyError",
+                    "printedName": "GetivySDK.GetivyError",
+                    "usr": "s:9GetivySDK0A5ErrorO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "printedName": "GetivySDK.GetivyError.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GetivySDKError",
-                        "printedName": "GetivySDK.GetivySDKError",
-                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                        "name": "GetivyError",
+                        "printedName": "GetivySDK.GetivyError",
+                        "usr": "s:9GetivySDK0A5ErrorO"
                       }
                     ]
                   }
@@ -894,8 +894,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9GetivySDK0A8SDKErrorO33invalidGetCheckoutDetailsResponseyA2CmF",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO33invalidGetCheckoutDetailsResponseyA2CmF",
+            "usr": "s:9GetivySDK0A5ErrorO33invalidGetCheckoutDetailsResponseyA2CmF",
+            "mangledName": "$s9GetivySDK0A5ErrorO33invalidGetCheckoutDetailsResponseyA2CmF",
             "moduleName": "GetivySDK"
           },
           {
@@ -906,24 +906,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "printedName": "(GetivySDK.GetivyError.Type) -> GetivySDK.GetivyError",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GetivySDKError",
-                    "printedName": "GetivySDK.GetivySDKError",
-                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                    "name": "GetivyError",
+                    "printedName": "GetivySDK.GetivyError",
+                    "usr": "s:9GetivySDK0A5ErrorO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "printedName": "GetivySDK.GetivyError.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GetivySDKError",
-                        "printedName": "GetivySDK.GetivySDKError",
-                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                        "name": "GetivyError",
+                        "printedName": "GetivySDK.GetivyError",
+                        "usr": "s:9GetivySDK0A5ErrorO"
                       }
                     ]
                   }
@@ -931,8 +931,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9GetivySDK0A8SDKErrorO38couldNotConstructFullUrlForEnvironmentyA2CmF",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO38couldNotConstructFullUrlForEnvironmentyA2CmF",
+            "usr": "s:9GetivySDK0A5ErrorO38couldNotConstructFullUrlForEnvironmentyA2CmF",
+            "mangledName": "$s9GetivySDK0A5ErrorO38couldNotConstructFullUrlForEnvironmentyA2CmF",
             "moduleName": "GetivySDK"
           },
           {
@@ -943,24 +943,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "printedName": "(GetivySDK.GetivyError.Type) -> GetivySDK.GetivyError",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GetivySDKError",
-                    "printedName": "GetivySDK.GetivySDKError",
-                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                    "name": "GetivyError",
+                    "printedName": "GetivySDK.GetivyError",
+                    "usr": "s:9GetivySDK0A5ErrorO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "printedName": "GetivySDK.GetivyError.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GetivySDKError",
-                        "printedName": "GetivySDK.GetivySDKError",
-                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                        "name": "GetivyError",
+                        "printedName": "GetivySDK.GetivyError",
+                        "usr": "s:9GetivySDK0A5ErrorO"
                       }
                     ]
                   }
@@ -968,8 +968,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9GetivySDK0A8SDKErrorO21failedToEncodeRequestyA2CmF",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO21failedToEncodeRequestyA2CmF",
+            "usr": "s:9GetivySDK0A5ErrorO21failedToEncodeRequestyA2CmF",
+            "mangledName": "$s9GetivySDK0A5ErrorO21failedToEncodeRequestyA2CmF",
             "moduleName": "GetivySDK"
           },
           {
@@ -980,24 +980,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "printedName": "(GetivySDK.GetivyError.Type) -> GetivySDK.GetivyError",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GetivySDKError",
-                    "printedName": "GetivySDK.GetivySDKError",
-                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                    "name": "GetivyError",
+                    "printedName": "GetivySDK.GetivyError",
+                    "usr": "s:9GetivySDK0A5ErrorO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "printedName": "GetivySDK.GetivyError.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GetivySDKError",
-                        "printedName": "GetivySDK.GetivySDKError",
-                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                        "name": "GetivyError",
+                        "printedName": "GetivySDK.GetivyError",
+                        "usr": "s:9GetivySDK0A5ErrorO"
                       }
                     ]
                   }
@@ -1005,8 +1005,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9GetivySDK0A8SDKErrorO30couldNotLoadViewFromStoryboardyA2CmF",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO30couldNotLoadViewFromStoryboardyA2CmF",
+            "usr": "s:9GetivySDK0A5ErrorO30couldNotLoadViewFromStoryboardyA2CmF",
+            "mangledName": "$s9GetivySDK0A5ErrorO30couldNotLoadViewFromStoryboardyA2CmF",
             "moduleName": "GetivySDK"
           },
           {
@@ -1017,24 +1017,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "printedName": "(GetivySDK.GetivyError.Type) -> GetivySDK.GetivyError",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GetivySDKError",
-                    "printedName": "GetivySDK.GetivySDKError",
-                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                    "name": "GetivyError",
+                    "printedName": "GetivySDK.GetivyError",
+                    "usr": "s:9GetivySDK0A5ErrorO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "printedName": "GetivySDK.GetivyError.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GetivySDKError",
-                        "printedName": "GetivySDK.GetivySDKError",
-                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                        "name": "GetivyError",
+                        "printedName": "GetivySDK.GetivyError",
+                        "usr": "s:9GetivySDK0A5ErrorO"
                       }
                     ]
                   }
@@ -1042,8 +1042,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9GetivySDK0A8SDKErrorO17flowNotSuccessfulyA2CmF",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO17flowNotSuccessfulyA2CmF",
+            "usr": "s:9GetivySDK0A5ErrorO17flowNotSuccessfulyA2CmF",
+            "mangledName": "$s9GetivySDK0A5ErrorO17flowNotSuccessfulyA2CmF",
             "moduleName": "GetivySDK"
           },
           {
@@ -1054,24 +1054,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "printedName": "(GetivySDK.GetivyError.Type) -> GetivySDK.GetivyError",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GetivySDKError",
-                    "printedName": "GetivySDK.GetivySDKError",
-                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                    "name": "GetivyError",
+                    "printedName": "GetivySDK.GetivyError",
+                    "usr": "s:9GetivySDK0A5ErrorO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "printedName": "GetivySDK.GetivyError.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GetivySDKError",
-                        "printedName": "GetivySDK.GetivySDKError",
-                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                        "name": "GetivyError",
+                        "printedName": "GetivySDK.GetivyError",
+                        "usr": "s:9GetivySDK0A5ErrorO"
                       }
                     ]
                   }
@@ -1079,8 +1079,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9GetivySDK0A8SDKErrorO28featureWantedExternalBrowseryA2CmF",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO28featureWantedExternalBrowseryA2CmF",
+            "usr": "s:9GetivySDK0A5ErrorO28featureWantedExternalBrowseryA2CmF",
+            "mangledName": "$s9GetivySDK0A5ErrorO28featureWantedExternalBrowseryA2CmF",
             "moduleName": "GetivySDK"
           },
           {
@@ -1091,24 +1091,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(GetivySDK.GetivySDKError.Type) -> GetivySDK.GetivySDKError",
+                "printedName": "(GetivySDK.GetivyError.Type) -> GetivySDK.GetivyError",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GetivySDKError",
-                    "printedName": "GetivySDK.GetivySDKError",
-                    "usr": "s:9GetivySDK0A8SDKErrorO"
+                    "name": "GetivyError",
+                    "printedName": "GetivySDK.GetivyError",
+                    "usr": "s:9GetivySDK0A5ErrorO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "GetivySDK.GetivySDKError.Type",
+                    "printedName": "GetivySDK.GetivyError.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GetivySDKError",
-                        "printedName": "GetivySDK.GetivySDKError",
-                        "usr": "s:9GetivySDK0A8SDKErrorO"
+                        "name": "GetivyError",
+                        "printedName": "GetivySDK.GetivyError",
+                        "usr": "s:9GetivySDK0A5ErrorO"
                       }
                     ]
                   }
@@ -1116,8 +1116,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9GetivySDK0A8SDKErrorO23newTabUrlCanNotBeOpenedyA2CmF",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO23newTabUrlCanNotBeOpenedyA2CmF",
+            "usr": "s:9GetivySDK0A5ErrorO23newTabUrlCanNotBeOpenedyA2CmF",
+            "mangledName": "$s9GetivySDK0A5ErrorO23newTabUrlCanNotBeOpenedyA2CmF",
             "moduleName": "GetivySDK"
           },
           {
@@ -1133,20 +1133,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GetivySDKError",
-                "printedName": "GetivySDK.GetivySDKError",
-                "usr": "s:9GetivySDK0A8SDKErrorO"
+                "name": "GetivyError",
+                "printedName": "GetivySDK.GetivyError",
+                "usr": "s:9GetivySDK0A5ErrorO"
               },
               {
                 "kind": "TypeNominal",
-                "name": "GetivySDKError",
-                "printedName": "GetivySDK.GetivySDKError",
-                "usr": "s:9GetivySDK0A8SDKErrorO"
+                "name": "GetivyError",
+                "printedName": "GetivySDK.GetivyError",
+                "usr": "s:9GetivySDK0A5ErrorO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9GetivySDK0A8SDKErrorO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO2eeoiySbAC_ACtFZ",
+            "usr": "s:9GetivySDK0A5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9GetivySDK0A5ErrorO2eeoiySbAC_ACtFZ",
             "moduleName": "GetivySDK",
             "static": true,
             "implicit": true,
@@ -1165,8 +1165,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9GetivySDK0A8SDKErrorO9hashValueSivp",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO9hashValueSivp",
+            "usr": "s:9GetivySDK0A5ErrorO9hashValueSivp",
+            "mangledName": "$s9GetivySDK0A5ErrorO9hashValueSivp",
             "moduleName": "GetivySDK",
             "implicit": true,
             "accessors": [
@@ -1183,8 +1183,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9GetivySDK0A8SDKErrorO9hashValueSivg",
-                "mangledName": "$s9GetivySDK0A8SDKErrorO9hashValueSivg",
+                "usr": "s:9GetivySDK0A5ErrorO9hashValueSivg",
+                "mangledName": "$s9GetivySDK0A5ErrorO9hashValueSivg",
                 "moduleName": "GetivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1210,16 +1210,16 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9GetivySDK0A8SDKErrorO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s9GetivySDK0A8SDKErrorO4hash4intoys6HasherVz_tF",
+            "usr": "s:9GetivySDK0A5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9GetivySDK0A5ErrorO4hash4intoys6HasherVz_tF",
             "moduleName": "GetivySDK",
             "implicit": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
-        "usr": "s:9GetivySDK0A8SDKErrorO",
-        "mangledName": "$s9GetivySDK0A8SDKErrorO",
+        "usr": "s:9GetivySDK0A5ErrorO",
+        "mangledName": "$s9GetivySDK0A5ErrorO",
         "moduleName": "GetivySDK",
         "declAttributes": [
           "AccessControl"
@@ -2699,6 +2699,34 @@
         "moduleName": "GetivySDK"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "GetivySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "UIViewController",
         "printedName": "UIViewController",
@@ -2811,6 +2839,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -2939,6 +2974,181 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Routing.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 33,
+      "value": "\"Getivy: Error loading bank view\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Routing.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 32,
+      "value": "\"Getivy: Error loading web view\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Routing.swift",
+      "kind": "BooleanLiteral",
+      "offset": 885,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Routing.swift",
+      "kind": "StringLiteral",
+      "offset": 1144,
+      "length": 38,
+      "value": "\"Getivy: Error loading languages view\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Routing.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1234,
+      "length": 3,
+      "value": "155"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Routing.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1259,
+      "length": 3,
+      "value": "123"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Routing.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1474,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Routing.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1904,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Web\/WebViewController+WKUIDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 23,
+      "value": "\"https:\/\/link.tink.com\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Web\/WebViewController+WKUIDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 605,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Utils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 483,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Routes\/WebViewApiRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 60,
+      "value": "\"init?id=\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Routes\/WebViewApiRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 1,
+      "value": "\"&bankId=\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Routes\/WebViewApiRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 1,
+      "value": "\"&locale=\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Routes\/WebViewApiRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 362,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Routes\/WebViewApiRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 65,
+      "value": "\"?session=\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Routes\/WebViewApiRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 1,
+      "value": "\"&bankId=\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Routes\/WebViewApiRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 1,
+      "value": "\"&locale=\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Routes\/WebViewApiRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/ApiRoute+URL.swift",
+      "kind": "StringLiteral",
+      "offset": 113,
+      "length": 28,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/ApiRoute+URL.swift",
+      "kind": "StringLiteral",
+      "offset": 132,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/ApiRoute+URL.swift",
+      "kind": "StringLiteral",
+      "offset": 140,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/ApiRoute+URL.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 51,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/ApiRoute+URL.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/ApiRoute+URL.swift",
+      "kind": "StringLiteral",
+      "offset": 299,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
       "kind": "StringLiteral",
       "offset": 80,
@@ -2986,6 +3196,55 @@
       "offset": 285,
       "length": 9,
       "value": "\"A52-iOS\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 27,
+      "value": "\"Data session id is empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
+      "length": 23,
+      "value": "\"Checkout id is empty.\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 565,
+      "length": 29,
+      "value": "\"Could not get data session.\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 649,
+      "length": 33,
+      "value": "\"Could not get checkout session.\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 731,
+      "length": 24,
+      "value": "\"Process was cancelled.\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 801,
+      "length": 22,
+      "value": "\"Flow not successful.\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 875,
+      "length": 20,
+      "value": "\"Wrong environment.\""
     },
     {
       "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Error\/SDKErrorCodes.swift",
@@ -3044,11 +3303,291 @@
       "value": "1.0"
     },
     {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 3,
+      "value": "\"#\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 282,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 351,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 8,
+      "value": "0xFF0000"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 464,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "FloatLiteral",
+      "offset": 470,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 516,
+      "length": 8,
+      "value": "0x00FF00"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "FloatLiteral",
+      "offset": 534,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 578,
+      "length": 8,
+      "value": "0x0000FF"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "FloatLiteral",
+      "offset": 590,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1132,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1139,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1584,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "FloatLiteral",
+      "offset": 1652,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1814,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIColor+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1821,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Web\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 765,
+      "length": 23,
+      "value": "\"nativeMessageListener\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Web\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1445,
+      "length": 22,
+      "value": "\"WEB VIEW URL: \""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Web\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIFont + CustomFonts.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 77,
+      "value": "\"GetivySDK: UIFont+:  Failed to register font - path for resource not found.\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIFont + CustomFonts.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 79,
+      "value": "\"GetivySDK: UIFont+:  Failed to register font - font data could not be loaded.\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIFont + CustomFonts.swift",
+      "kind": "StringLiteral",
+      "offset": 704,
+      "length": 83,
+      "value": "\"GetivySDK: UIFont+:  Failed to register font - data provider could not be loaded.\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIFont + CustomFonts.swift",
+      "kind": "StringLiteral",
+      "offset": 890,
+      "length": 74,
+      "value": "\"GetivySDK: UIFont+:  Failed to register font - font could not be loaded.\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIFont + CustomFonts.swift",
+      "kind": "StringLiteral",
+      "offset": 1121,
+      "length": 197,
+      "value": "\"            GetivySDK: UIFont+:  Failed to register font - register graphics font failed - this\nfont may have already been registered in the main bundle.\""
+    },
+    {
       "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Common\/Localization\/LocalizationManager.swift",
       "kind": "StringLiteral",
       "offset": 110,
       "length": 24,
       "value": "\"kGetivySharedLocaleKey\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Routes\/CheckoutApiRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 38,
+      "value": "\"api\/service\/checkout\/session\/details\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Routes\/BanksApiRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 150,
+      "length": 24,
+      "value": "\"api\/service\/banks\/list\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Routes\/BanksApiRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 204,
+      "length": 26,
+      "value": "\"api\/service\/banks\/search\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Web\/WebViewController+WKScriptMessageHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 408,
+      "length": 8,
+      "value": "\"source\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Web\/WebViewController+WKScriptMessageHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 533,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Web\/WebViewController+WKScriptMessageHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 651,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Web\/WebViewController+WKScriptMessageHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 835,
+      "length": 8,
+      "value": "\"dataId\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Web\/WebViewController+WKScriptMessageHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
+      "length": 13,
+      "value": "\"referenceId\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivyImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 20,
+      "value": "\"GraphikRegular.otf\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivyImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 326,
+      "length": 21,
+      "value": "\"GraphikSemibold.otf\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivyImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 19,
+      "value": "\"Inter-Regular.otf\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UITableViewCell+ReuseIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Services\/Banks\/BanksApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 792,
+      "length": 23,
+      "value": "\"BANKS LIST RESPONSE: \""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Services\/Banks\/BanksApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 1729,
+      "length": 25,
+      "value": "\"BANKS SEARCH RESPONSE: \""
     },
     {
       "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Services\/Banks\/BanksApiService.swift",
@@ -3058,32 +3597,102 @@
       "value": "\"GetivySDK.BanksApiService\""
     },
     {
-      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivySDKContract.swift",
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIImageView+URL.swift",
+      "kind": "IntegerLiteral",
+      "offset": 589,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/UIImageView+URL.swift",
+      "kind": "IntegerLiteral",
+      "offset": 624,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivyContract.swift",
       "kind": "IntegerLiteral",
       "offset": 137,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivySDKContract.swift",
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivyContract.swift",
       "kind": "IntegerLiteral",
       "offset": 144,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivySDKContract.swift",
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivyContract.swift",
       "kind": "IntegerLiteral",
       "offset": 137,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivySDKContract.swift",
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/GetivyContract.swift",
       "kind": "IntegerLiteral",
       "offset": 144,
       "length": 8,
       "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/NSMuttableAttributedString+Link.swift",
+      "kind": "BooleanLiteral",
+      "offset": 448,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/NSMuttableAttributedString+Link.swift",
+      "kind": "BooleanLiteral",
+      "offset": 478,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1009,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1025,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1181,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1256,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2111,
+      "length": 5,
+      "value": "\"ais\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2160,
+      "length": 5,
+      "value": "\"pis\""
     },
     {
       "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler.swift",
@@ -3093,11 +3702,81 @@
       "value": "\"GetivySDK.PresentationUIHandler\""
     },
     {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Routes\/DataSessionApiRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 152,
+      "length": 34,
+      "value": "\"api\/service\/data\/session\/details\""
+    },
+    {
       "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Config\/GetivyConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 250,
+      "length": 12,
+      "value": "\"production\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Config\/GetivyConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 9,
+      "value": "\"sandbox\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Config\/GetivyConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 13,
+      "value": "\"development\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Config\/GetivyConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1009,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Config\/GetivyConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1453,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Config\/GetivyConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 499,
       "length": 19,
       "value": "\"GetivySDK.GetivyConfiguration\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 869,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 1177,
+      "length": 25,
+      "value": "\"SDK REQUEST: \""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 1201,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
@@ -3114,6 +3793,384 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1412,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1991,
+      "length": 41,
+      "value": "\"GetivySDK: Error getting banks search: \""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2652,
+      "length": 39,
+      "value": "\"GetivySDK: Error getting banks list: \""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3097,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3133,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3174,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3211,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3251,
+      "length": 18,
+      "value": "\"Graphik-Semibold\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3323,
+      "length": 17,
+      "value": "\"Graphik-Regular\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3451,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3524,
+      "length": 9,
+      "value": "\"#252525\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3631,
+      "length": 9,
+      "value": "\"#717171\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3712,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3790,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3844,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3888,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4114,
+      "length": 15,
+      "value": "\"Inter-Regular\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4960,
+      "length": 16,
+      "value": "\"bankDisclaimer\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5193,
+      "length": 6,
+      "value": "\" Ivy\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5210,
+      "length": 19,
+      "value": "\"https:\/\/getivy.io\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5289,
+      "length": 8,
+      "value": "\"AV van\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5308,
+      "length": 24,
+      "value": "\"https:\/\/getivy.io\/agbs\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5392,
+      "length": 15,
+      "value": "\"Privacybeleid\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5418,
+      "length": 31,
+      "value": "\"https:\/\/getivy.io\/datenschutz\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5509,
+      "length": 14,
+      "value": "\"Cookiebeleid\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5534,
+      "length": 31,
+      "value": "\"https:\/\/getivy.io\/datenschutz\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5618,
+      "length": 12,
+      "value": "\"Nederlands\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5761,
+      "length": 8,
+      "value": "\"Ivy's \""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5780,
+      "length": 19,
+      "value": "\"https:\/\/getivy.io\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5859,
+      "length": 7,
+      "value": "\"Terms\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5877,
+      "length": 24,
+      "value": "\"https:\/\/getivy.io\/agbs\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5961,
+      "length": 16,
+      "value": "\"Privacy Policy\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5988,
+      "length": 31,
+      "value": "\"https:\/\/getivy.io\/datenschutz\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6079,
+      "length": 15,
+      "value": "\"Cookie Policy\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6105,
+      "length": 31,
+      "value": "\"https:\/\/getivy.io\/datenschutz\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6189,
+      "length": 9,
+      "value": "\"English\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6328,
+      "length": 8,
+      "value": "\"Ivy's \""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6347,
+      "length": 19,
+      "value": "\"https:\/\/getivy.io\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6426,
+      "length": 6,
+      "value": "\"AGBs\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6443,
+      "length": 24,
+      "value": "\"https:\/\/getivy.io\/agbs\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6527,
+      "length": 23,
+      "value": "\"Datenschutzbestimmung\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6561,
+      "length": 31,
+      "value": "\"https:\/\/getivy.io\/datenschutz\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6652,
+      "length": 19,
+      "value": "\"Cookie-Richtlinie\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6682,
+      "length": 31,
+      "value": "\"https:\/\/getivy.io\/datenschutz\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6766,
+      "length": 9,
+      "value": "\"Germany\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6862,
+      "length": 11,
+      "value": "\"bankTitle\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6995,
+      "length": 22,
+      "value": "\"bankSearchSuggestion\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7079,
+      "length": 19,
+      "value": "\"noBanksFoundTitle\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7162,
+      "length": 21,
+      "value": "\"noBanksFoundMessage\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7348,
+      "length": 45,
+      "value": "\"GetivySDK: Router not found in banks screen\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7825,
+      "length": 19,
+      "value": "\"BankTableViewCell\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8183,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8331,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8435,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
       "kind": "StringLiteral",
       "offset": 58,
@@ -3198,6 +4255,104 @@
       "value": "2"
     },
     {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 795,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 991,
+      "length": 17,
+      "value": "\"Graphik-Regular\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1832,
+      "length": 53,
+      "value": "\"GetivySDK: Could not load language for view tag: %@\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Languages\/LanguagesViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2334,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 17,
+      "value": "\"Graphik-Regular\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 410,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 566,
+      "length": 2,
+      "value": "42"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 610,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 662,
+      "length": 9,
+      "value": "\"#BDBDBD\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 729,
+      "length": 3,
+      "value": "\"B\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Bank\/BankTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 914,
+      "length": 17,
+      "value": "\"Graphik-Regular\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Web\/WebViewController+LanguageChangeObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 8,
+      "value": "\"cancel\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/String+Languages.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 7,
+      "value": "\"lproj\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Extensions\/String+Languages.swift",
+      "kind": "StringLiteral",
+      "offset": 455,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
       "kind": "IntegerLiteral",
       "offset": 87,
@@ -3213,6 +4368,69 @@
     },
     {
       "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 27,
+      "value": "\"https:\/\/api.dev.getivy.de\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 23,
+      "value": "\"https:\/\/api.getivy.de\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 28,
+      "value": "\"https:\/\/api.sand.getivy.de\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 679,
+      "length": 37,
+      "value": "\"https:\/\/account-check.dev.getivy.de\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 768,
+      "length": 32,
+      "value": "\"https:\/\/checkout.dev.getivy.de\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 915,
+      "length": 33,
+      "value": "\"https:\/\/account-check.getivy.de\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1000,
+      "length": 28,
+      "value": "\"https:\/\/checkout.getivy.de\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1140,
+      "length": 38,
+      "value": "\"https:\/\/account-check.sand.getivy.de\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1230,
+      "length": 33,
+      "value": "\"https:\/\/checkout.sand.getivy.de\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Environment.swift",
       "kind": "IntegerLiteral",
       "offset": 87,
       "length": 7,
@@ -3224,6 +4442,62 @@
       "offset": 104,
       "length": 11,
       "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Build.swift",
+      "kind": "StringLiteral",
+      "offset": 148,
+      "length": 10,
+      "value": "\"BankView\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Build.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 20,
+      "value": "\"BankViewController\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Build.swift",
+      "kind": "StringLiteral",
+      "offset": 855,
+      "length": 9,
+      "value": "\"WebView\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Build.swift",
+      "kind": "StringLiteral",
+      "offset": 1004,
+      "length": 19,
+      "value": "\"WebViewController\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Build.swift",
+      "kind": "StringLiteral",
+      "offset": 1346,
+      "length": 15,
+      "value": "\"LanguagesView\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+Build.swift",
+      "kind": "StringLiteral",
+      "offset": 1501,
+      "length": 25,
+      "value": "\"LanguagesViewController\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Services\/IvyApiService\/IvyApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 818,
+      "length": 25,
+      "value": "\"DATA SESSION RESPONSE: \""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Services\/IvyApiService\/IvyApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 1773,
+      "length": 29,
+      "value": "\"CHECKOUT SESSION RESPONSE: \""
     },
     {
       "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/Api\/Services\/IvyApiService\/IvyApiService.swift",
@@ -3231,6 +4505,55 @@
       "offset": 31,
       "length": 13,
       "value": "\"GetivySDK.IvyApiService\""
+    },
+    {
+      "filePath": "\/Volumes\/Extreme_SSD\/Dev\/GetIvy\/ios-sdk\/Source\/UI\/Handler\/Implementation\/PresentationUIHandler+UIHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 394,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mariuskurgonas\/Library\/Developer\/Xcode\/DerivedData\/GetivySDK-ejpzszvxyiaasvbkzuopemxlqgyg\/Build\/Intermediates.noindex\/GetivySDK.build\/Release-iphonesimulator\/GetivySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 727,
+      "length": 9,
+      "value": "\"English\""
+    },
+    {
+      "filePath": "\/Users\/mariuskurgonas\/Library\/Developer\/Xcode\/DerivedData\/GetivySDK-ejpzszvxyiaasvbkzuopemxlqgyg\/Build\/Intermediates.noindex\/GetivySDK.build\/Release-iphonesimulator\/GetivySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 860,
+      "length": 9,
+      "value": "\"Germany\""
+    },
+    {
+      "filePath": "\/Users\/mariuskurgonas\/Library\/Developer\/Xcode\/DerivedData\/GetivySDK-ejpzszvxyiaasvbkzuopemxlqgyg\/Build\/Intermediates.noindex\/GetivySDK.build\/Release-iphonesimulator\/GetivySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 999,
+      "length": 12,
+      "value": "\"Nederlands\""
+    },
+    {
+      "filePath": "\/Users\/mariuskurgonas\/Library\/Developer\/Xcode\/DerivedData\/GetivySDK-ejpzszvxyiaasvbkzuopemxlqgyg\/Build\/Intermediates.noindex\/GetivySDK.build\/Release-iphonesimulator\/GetivySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1138,
+      "length": 11,
+      "value": "\"back_icon\""
+    },
+    {
+      "filePath": "\/Users\/mariuskurgonas\/Library\/Developer\/Xcode\/DerivedData\/GetivySDK-ejpzszvxyiaasvbkzuopemxlqgyg\/Build\/Intermediates.noindex\/GetivySDK.build\/Release-iphonesimulator\/GetivySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1278,
+      "length": 12,
+      "value": "\"close-icon\""
+    },
+    {
+      "filePath": "\/Users\/mariuskurgonas\/Library\/Developer\/Xcode\/DerivedData\/GetivySDK-ejpzszvxyiaasvbkzuopemxlqgyg\/Build\/Intermediates.noindex\/GetivySDK.build\/Release-iphonesimulator\/GetivySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1417,
+      "length": 11,
+      "value": "\"logo-dark\""
     }
   ]
 }

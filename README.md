@@ -95,7 +95,7 @@ class ViewController: UIViewController {
         )
         
         // Get reference to the SDK
-        let sdk = GetivySDK.shared
+        let sdk = Getivy.shared
         
         // Get UI handler
         sdk.initializeHandler(configuration: config) { handler, error in
@@ -126,7 +126,7 @@ class ViewController: UIViewController {
         )
         
         // Get reference to the SDK
-        let sdk = GetivySDK.shared
+        let sdk = Getivy.shared
         
         // Get UI handler
         sdk.initializeHandler(configuration: config) { handler, error in
